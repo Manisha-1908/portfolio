@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>N.Manisha</h1>
+            <p class="tagline">A passionate web developer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="your-photo.jpg" alt="N.Manisha" class="profile-img">
+                <div class="bio">
+                    <p>Hello! I'm [N.Manisha], a passionate web developer with a knack for creating clean and efficient code. I have experience in HTML, CSS, JavaScript, and React. I love learning new technologies and building projects that solve real-world problems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git & GitHub</li>
+                <li>Responsive Design</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>A brief description of the project. It was built with HTML, CSS, and JavaScript to solve a specific problem.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Project 2</h3>
+                    <p>This project uses React and Node.js to create a web application with real-time functionality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Click below to download my resume:</p>
+            <a href="your-resume.pdf" class="download-link" download>Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: manisha@example.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p><a href="#about">Back to Top</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about img.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+#about .bio {
+    flex: 1;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 1.1em;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#projects .project-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#projects .project-card img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+#projects .project-info {
+    flex: 1;
+}
+
+#projects h3 {
+    margin-bottom: 10px;
+}
+
+#projects p {
+    font-size: 1em;
+}
+
+/* Resume Section */
+#resume {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#resume .download-link {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#resume .download-link:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #about .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about img.profile-img {
+        margin: 0 auto 20px;
+    }
+
+    #projects .project-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #projects .project-card img {
+        margin-bottom: 20px;
+    }
+}
